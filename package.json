@@ -1,0 +1,22 @@
+{
+  "name": "vue-webpack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LunaZxg/vue-webpack.git"
+  },
+  "author": "Luna",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LunaZxg/vue-webpack/issues"
+  },
+  "homepage": "https://github.com/LunaZxg/vue-webpack#readme",
+  "devDependencies": {
+    "webpack": "^4.37.0"
+  }
+}
