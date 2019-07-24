@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "webpack",
+    "server": "webpack-dev-server --open",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -18,6 +19,7 @@
   },
   "homepage": "https://github.com/LunaZxg/vue-webpack#readme",
   "devDependencies": {
-    "webpack": "^4.37.0"
+    "webpack": "^4.37.0",
+    "webpack-dev-server": "^3.7.2"
   }
 }
