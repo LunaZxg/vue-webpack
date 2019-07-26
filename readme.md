@@ -9,3 +9,6 @@
 ## 使用webpack构建本地服务器
 - `npm install --save-dev webpack-dev-server`
 - 执行命令 `npm run server` 可以在本地的8080端口查看结果
+## 自己尝试写loader
+- `npx webpack -p`执行打包命令
+- `npm run server`用于启动本地服务
