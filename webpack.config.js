@@ -10,7 +10,8 @@ module.exports = {
     },
     devServer: {
         contentBase: './public', //本地服务器加载的页面服务路径
-        inline: true  //实时刷新
+        inline: true,  //实时刷新
+        port: 8007,
     },
     module:{
         rules: [
@@ -19,6 +20,18 @@ module.exports = {
                 use: {
                     loader: path.resolve(__dirname + '/loaders/handle-html.js')
                 }
+            },
+            {
+                test: /\.css$/,
+                use: [
+                    {
+                        loader: "style-loader"
+                    }, {
+                        loader: "css-loader"
+                    }, {
+                        loader: "postcss-loader"
+                    }
+                ]
             }
         ],
     }
